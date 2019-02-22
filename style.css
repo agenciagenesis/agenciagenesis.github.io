@@ -401,19 +401,21 @@ table {
 
 	.logo {
 		padding: 13px 0;
+		width: 70px;
 	}
 
 	.logo-grande {
-		width: 300px;
+		width: 200px;
 	}
 
 	.nome-home{
-		width: 350px;
+		width: 300px;
 	}
 
 	.calltoaction {
-		width: 300px;
+		width: 250px;
 		font-size: 16px;
+		padding: 15px;
 	}
 
 	.calltoaction2 {
@@ -430,28 +432,6 @@ table {
 		display: block;
 	}
 	
-}
-
-@media (max-width: 540px) {
-
-	.nome-home {
-		width: 300px;
-	}
-
-	.calltoaction {
-		width: 250px;
-		padding: 15px;
-		z-index: ;
-	}
-
-	.logo-grande {
-		width: 200px;
-	}
-
-	.logo {
-		width: 70px;
-	}
-
 	.imgmenu {
 		top:20px;
 	}
@@ -463,5 +443,5 @@ table {
 	#nav-bar {
 		height: 70px;
 	}
-
+	
 }
