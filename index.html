@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"> 
+    <title>Gilson Alves</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+    <header id="header">
+      <div id="nav-bar">
+		  <div id="menuresponsivo">
+				<img class="imgmenu" src="menu.svg" onclick="abrir()" width="30">
+				<div id="lateral">
+					<h1 class="xis" onclick="fechar()">X</h1>
+					<nav class="menulateral">
+              <a class="item-menu-lateral" onclick="fechar()" href="#header">INÍCIO</a>
+              <a class="item-menu-lateral" onclick="fechar()" href="#sobre">SERVIÇOS</a>
+              <a class="item-menu-lateral" onclick="fechar()" href="#">PORTFOLIO</a>
+              <a class="item-menu-lateral" onclick="fechar()" href="#">CONTATO</a>
+           </nav>
+				</div>
+			</div>
+        <a href="#header" class="linklogo">
+          <img class="logo" src="logo-site-branco.svg" width="100">
+        </a>
+          <nav class="menu">
+            <a class="item-menu" href="#header">INÍCIO</a>
+            <a class="item-menu" href="#sobre">SERVIÇOS</a>
+            <a class="item-menu" href="#">PORTFOLIO</a>
+            <a class="item-menu" href="#">CONTATO</a>
+          </nav>
+          <div class="faixa"></div>
+      </div>
+      <div id="particles-js"></div>
+      <div id="conteudo-home">
+        <img class="nome-home" src="nome.svg">
+        <a class="calltoaction" href="#sobre">CONHEÇA NOSSOS SERVIÇOS!<a>
+      </div>
+      <img class="logo-grande" src="onda.svg" width="500px">
+    </header>
+    <div id="sobre">
+        <h1 class="titulo-sessao">SERVIÇOS</h1>
+        <div class="conteudo-sobre">
+          <div class="servicos" style="border:none;">
+              <img class="icon-servicos" src="icones/identidade-visual.svg">
+              <h1 class="titulo-servico">IDENTIDADE VISUAL</h1>
+              <P class="texto-servico" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</P>
+          </div>
+          <div class="servicos">
+              <img class="icon-servicos"  style="width:175px;" src="icones/social-media.svg">
+               <h1 class="titulo-servico">SOCIAL MEDIA</h1>
+               <P class="texto-servico" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</P>
+          </div>
+          <div class="servicos">
+              <img class="icon-servicos" style="width:175px;" src="icones/website.svg">
+               <h1 class="titulo-servico">SITES</h1>
+               <P class="texto-servico" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</P>
+          </div>
+          <div class="servicos">
+              <img class="icon-servicos" style="width:175px;" src="icones/folder.svg">
+               <h1 class="titulo-servico">IMPRESSOS</h1>
+               <P class="texto-servico" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</P>
+          </div>
+      </div>
+    <a class="calltoaction2" href="#sobre">ENTRE EM CONTATO!<a></a>
+    </div>  
+    <script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
