@@ -431,3 +431,37 @@ table {
 	}
 	
 }
+
+@media (max-width: 540px) {
+
+	.nome-home {
+		width: 300px;
+	}
+
+	.calltoaction {
+		width: 250px;
+		padding: 15px;
+		z-index: ;
+	}
+
+	.logo-grande {
+		width: 200px;
+	}
+
+	.logo {
+		width: 70px;
+	}
+
+	.imgmenu {
+		top:20px;
+	}
+
+	.servicos {
+		width: auto;
+	}
+
+	#nav-bar {
+		height: 70px;
+	}
+
+}
