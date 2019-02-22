@@ -206,7 +206,7 @@ table {
 	width: 440px;
 	text-align: center;
 	text-decoration: none;
-	transition: 0s;
+	transition: 0.4s;
 }
 
 .calltoaction2{
@@ -225,7 +225,7 @@ table {
 	text-align: center;
 	text-decoration: none;
 	transition: 0.5s;
-	transition-delay: 0.5s;
+	transition-delay: 0s;
 	opacity: 0;
 }
 
@@ -269,7 +269,7 @@ table {
 	margin: auto;
 	opacity:0 ;
 	transition: 0.5s;
-	transition-delay: 0.2s;
+	transition-delay: 0s;
 }
 
 .servicos {
@@ -410,6 +410,7 @@ table {
 
 	.logo-grande {
 		width: 200px;
+		display: none;
 	}
 
 	.nome-home{
