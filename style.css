@@ -358,6 +358,10 @@ table {
 
 @media (max-width: 764px) {
 
+	#header {
+		height: 90vh;
+	}
+
 	#menuresponsivo {
 		display: block;
 	}
