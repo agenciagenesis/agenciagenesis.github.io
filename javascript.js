@@ -162,7 +162,7 @@ var toposobre = sobre.offset();
 $(document).ready(function($) {
   $(".item-menu, .item-menu-lateral, .item-menu-scroll, .linklogo, .calltoaction").click(function(event){
    event.preventDefault();
-   $('html,body').animate({scrollTop:$(this.hash).offset().top - 90}, 1000);
+   $('html,body').animate({scrollTop:$(this.hash).offset().top - 70}, 1000);
   });
  });
 
