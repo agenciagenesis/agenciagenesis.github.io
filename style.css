@@ -444,5 +444,21 @@ table {
 	#nav-bar {
 		height: 70px;
 	}
+
+	.titulo-sessao {
+		font-size: 25px;
+	}
+
+	.icon-servicos {
+		width: 100px !important;
+	}
+
+	.titulo-servico {
+		font-size: 20px;
+	}
+
+	.texto-servico {
+		font-size: 16px;
+	}
 	
 }
